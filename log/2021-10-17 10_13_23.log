@@ -1,0 +1,5 @@
+2021-10-17 10:13:23,209 - log.py[line:39] - INFO: {
+  "errcode": 0,
+  "errmsg": "created"
+}
+2021-10-17 10:13:23,232 - log.py[line:39] - INFO: 正在测试tag.creat

@@ -1,0 +1,40 @@
+
+  secret: e5QDaymap7Ymhmp_wyL7yqv2BM22Sx6iv6pLwo3X6Uc
+  creat:
+    method: post
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+    params:
+      access_token: {}
+    json: ${params}
+
+
+  get:
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/get
+    params:
+      access_token: {}
+      userid: ${userid}
+#      userid: dfmfdsdfdddfsffddf
+
+  update:
+    method: post
+    url: https://qyapi.weixin.qq.com/cgi-bin/department/update
+    params:
+      access_token: {}
+    json:
+      params: ${params}
+
+  delete:
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/department/delete
+    params:
+      access_token: {}
+      id: ${id}
+
+  list:
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/department/delete
+    params:
+      access_token: {}
+      id: ${id}
+

@@ -1,0 +1,5 @@
+2021-10-17 10:03:52,136 - log.py[line:39] - INFO: {
+  "errcode": 60112,
+  "errmsg": "Warning: wrong json format. invalid name, hint: [1634991954_161_8ccebadfed43f00925cd817df25bb477], from ip: 120.244.40.105, more info at https://open.work.weixin.qq.com/devtool/query?e=60112"
+}
+2021-10-17 10:03:52,142 - log.py[line:43] - ERROR: 60112

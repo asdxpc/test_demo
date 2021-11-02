@@ -1,0 +1,15 @@
+
+
+get:
+ - {method: tag.get,userid: "${userid}"}
+ - {path: "$..userid", assertion: "${userid}"}
+ - {path: "$..errcode", assertion: 0}
+
+# - {assertion: 'fddsffetdfufd'}
+# - {path: "$..errmsg", assertion: 'ok'}
+# - {assertion: 'ok1'}
+
+creat:
+  - {method: tag.creat,params: '${params}'}
+  - {path: "$..errcode", assertion: 0}
+  - {path: "$..errmsg",assettion: "created"}
